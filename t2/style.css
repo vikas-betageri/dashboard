@@ -1,0 +1,108 @@
+/* ====== GLOBAL ====== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: burlywood;
+}
+
+/* ====== NAVBAR ====== */
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo {
+    height: 40px;
+}
+
+.nav-right a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buy-btn {
+    padding: 8px 18px;
+    background: #0074ff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ====== HERO ====== */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* ====== CARDS ====== */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    gap: 25px;
+    padding: 40px;
+}
+
+.card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card p {
+    margin: 10px 0 20px;
+    color: #666;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-64 {
+    background: #0066ff;
+    color: white;
+}
+
+.btn-64:hover {
+    background: #004ed1;
+}
+
+.btn-32 {
+    background: #ebebeb;
+}
+
+.btn-32:hover {
+    background: #d4d4d4;
+}
